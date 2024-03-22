@@ -54,7 +54,7 @@ const refreshImages = async function refreshImages(imageList) {
     const card = cards[i];
     const label = imagePath.split('/')[0];
     const image = new Image();
-    image.src = `https://storage.googleapis.com/cloud-ml-data/img/flower_photos/${imagePath}`;
+    image.src = `https://console.cloud.google.com/storage/browser/aircraft_dataset_cropped_images/${imagePath}`;
     image.alt = label;
     return new Promise((resolve) => {
       image.onload = () => {
