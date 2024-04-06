@@ -1,0 +1,3 @@
+[submodule "Wordsly"]
+	path = Wordsly
+	url = https://github.com/ari-gaskins/Wordsly
